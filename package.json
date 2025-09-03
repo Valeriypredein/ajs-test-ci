@@ -1,0 +1,29 @@
+{
+  "name": "test-ci",
+  "version": "1.0.0",
+  "description": "**Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.",
+  "homepage": "https://github.com/Valeriypredein/ajs-test-ci#readme",
+  "bugs": {
+    "url": "https://github.com/Valeriypredein/ajs-test-ci/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valeriypredein/ajs-test-ci.git"
+  },
+  "license": "ISC",
+  "author": "Valeriy Predein",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "jest": "^30.1.3"
+  },
+  "dependencies": {
+    "core-js": "^3.45.1"
+  }
+}
